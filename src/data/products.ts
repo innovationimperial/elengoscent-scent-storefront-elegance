@@ -33,22 +33,22 @@ export const products: Product[] = [
   },
   {
     id: 3,
-    name: "Citrus Sunrise",
+    name: "Ocean Breeze",
     price: 799.99,
     image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&q=80&w=500",
     description: "A refreshing blend of citrus notes with a hint of jasmine. Energizing and perfect for daytime wear.",
     category: "Unisex",
     featured: true,
-    scentFamily: "Citrus",
+    scentFamily: "Fresh",
     notes: {
-      top: ["Orange", "Lemon"],
-      middle: ["Jasmine", "Green Tea"],
-      base: ["Cedar", "White Musk"]
+      top: ["Sea Salt", "Bergamot"],
+      middle: ["Lavender", "Marine Notes"],
+      base: ["Cedar", "Ambergris"]
     }
   },
   {
     id: 4,
-    name: "Velvet Rose",
+    name: "Rose Poetique",
     price: 999.99,
     image: "https://images.unsplash.com/photo-1615371388849-9a80c5b41740?auto=format&fit=crop&q=80&w=500",
     description: "A luxurious floral fragrance centered around fresh roses with subtle woody undertones.",
@@ -62,11 +62,11 @@ export const products: Product[] = [
   },
   {
     id: 5,
-    name: "Ocean Breeze",
+    name: "Aqua Vitae",
     price: 849.99,
     image: "https://images.unsplash.com/photo-1584305574647-0cc949a2bb9f?auto=format&fit=crop&q=80&w=500",
     description: "A fresh aquatic scent that captures the essence of the ocean with marine notes and light florals.",
-    category: "Unisex",
+    category: "Men's",
     scentFamily: "Fresh",
     notes: {
       top: ["Sea Salt", "Bergamot"],
@@ -76,7 +76,7 @@ export const products: Product[] = [
   },
   {
     id: 6,
-    name: "Amber Whispers",
+    name: "Mystic Amber",
     price: 1199.99,
     image: "https://images.unsplash.com/photo-1587017539504-67cfbddac569?auto=format&fit=crop&q=80&w=500",
     description: "A warm and inviting fragrance with amber, vanilla, and spicy undertones. Perfect for cozy evenings.",
@@ -91,7 +91,7 @@ export const products: Product[] = [
   },
   {
     id: 7,
-    name: "Forest Pine",
+    name: "Eternal Woods",
     price: 899.99,
     image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=500",
     description: "A fresh woody scent reminiscent of a walk through a pine forest. Grounding and refreshing.",
