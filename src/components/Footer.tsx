@@ -1,10 +1,7 @@
-
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-elengo-lightGray pt-12 pb-6">
+  return <footer className="bg-elengo-lightGray pt-12 pb-6">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Brand Column */}
@@ -13,10 +10,10 @@ const Footer = () => {
               <span>Elengo</span>
               <span className="text-elengo-lavender">Scent</span>
             </div>
-            <p className="text-elengo-darkGray text-sm">
+            <p className="text-sm text-slate-50">
               Discover your signature scent with our exquisite collection of premium fragrances crafted for the discerning individual.
             </p>
-            <div className="flex space-x-4 pt-2">
+            <div className="flex space-x-4 pt-2 bg-gray-200">
               <a href="#" aria-label="Facebook" className="text-elengo-darkGray hover:text-elengo-lavender transition-colors">
                 <Facebook size={18} />
               </a>
@@ -99,11 +96,7 @@ const Footer = () => {
             <h3 className="font-playfair text-lg font-semibold mb-2">Join Our Newsletter</h3>
             <p className="text-sm text-elengo-darkGray mb-4">Subscribe to receive updates, access to exclusive deals, and more.</p>
             <div className="flex flex-col sm:flex-row gap-2">
-              <input 
-                type="email" 
-                placeholder="Your email address" 
-                className="flex-grow px-4 py-2 border border-gray-200 rounded focus:outline-none focus:ring-1 focus:ring-elengo-lavender"
-              />
+              <input type="email" placeholder="Your email address" className="flex-grow px-4 py-2 border border-gray-200 rounded focus:outline-none focus:ring-1 focus:ring-elengo-lavender" />
               <button className="btn-lavender whitespace-nowrap">Subscribe</button>
             </div>
           </div>
@@ -114,8 +107,6 @@ const Footer = () => {
           <p>&copy; {new Date().getFullYear()} Elengo Scent. All rights reserved.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
